@@ -1,0 +1,35 @@
+.EditTodoForm {
+  padding: 15px 40px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.EditTodoForm label {
+  font-weight: 600;
+  color: #DEE3EA;
+}
+
+.EditTodoForm input#content {
+  height: 25px;
+  padding: 5px 10px;
+  border: none;
+  flex-grow: 1;
+}
+
+.EditTodoForm button {
+  border: 1px solid #FD4D4D;
+  opacity: 0.7;
+  color: #FD4D4D;
+  background-color: transparent;
+  padding: 9px 12px;
+  margin-left: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  min-width: 56px;
+  cursor: pointer;
+}
+
+.EditTodoForm button:hover {
+  border: 1px solid black;
+  opacity: 1;
+}

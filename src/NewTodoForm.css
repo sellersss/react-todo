@@ -1,0 +1,38 @@
+.NewTodoForm {
+  padding: 15px 40px;
+}
+
+.NewTodoForm label {
+  font-weight: 600;
+  color: #DEE3EA;
+}
+
+.NewTodoForm div {
+  margin-top: 5px;
+  display: flex;
+}
+
+.NewTodoForm input#content {
+  height: 25px;
+  padding: 5px 10px;
+  border: none;
+  flex-grow: 1;
+}
+
+.NewTodoForm button {
+  border: 1px solid #FD4D4D;
+  opacity: 0.7;
+  color: #DEE3EA;
+  background-color: transparent;
+  padding: 9px 12px;
+  margin-left: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  min-width: 56px;
+  cursor: pointer;
+  transition: all 0.24s;
+}
+
+.NewTodoForm button:hover {
+  opacity: 1;
+}
